@@ -6,8 +6,21 @@
   </head>
 
   <body>
-    <div id="app"></div>
-    <p>修正しました</p>
+    <div class="input-area">
+      <input id="add-text" placeholder="TODO" />
+      <button id="add-button">add</button>
+    </div>
+
+    <div class="imcomplete-area">
+      <p class="title">TO DO</p>
+      <ul id="incomplete-list"></ul>
+    </div>
+
+    <div class="complete-area">
+      <p class="title">Complete TODO</p>
+      <ul id="complete-list"></ul>
+    </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
